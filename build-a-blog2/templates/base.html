@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+            <style>
+            body {
+                background-color: dimgrey
+            }
+            .center {
+                margin: auto;
+                width: 50%;
+                border: 3px solid ghostwhite;
+                padding: 10px;
+            }
+            textarea {
+                background-color: whitesmoke
+            }
+            .left {
+                position: absolute;
+            }
+            div {
+                display:block;
+	            width:90%;
+	            margin:auto;
+            }
+            ul {
+                list-style: none
+            }
+            </style>
+        <form class="left" action="/new_post" method="get"><input id="Add_New_Post" type="submit" value="Add a new post!"></form>
+        <br>
+        <form class="left" action="/blog" method="get"><input id="View_All_Posts" type="submit" value="View All Posts"></form>
+        <title>
+            <p class="center">{{title}}</p>
+        </title>
+    </head>
+<body>
+    <main>
+        <div>
+            {% with messages = get_flashed_messages() %}
+                {% for message in messages %}
+                    <div class="flash_message">{{message|safe}}</div>
+                {% endfor %}
+            {% endwith %}
+
+            {% block content %}
+            {% endblock %}
+
+        </div> 
+    </main>
+
+</body>
+</html>

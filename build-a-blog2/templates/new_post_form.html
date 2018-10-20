@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="center">Thought for your thoughts</h1>
+<form class="center" action="/new_post" method="post">
+
+        <label for="title">Title</label>
+        <br>
+        <input name="title" type="text" value="{{new_blog_title}}">
+
+        <p><label for="body">Post</label>
+        <br>
+        <textarea rows="4" cols="50" name="body"></textarea></p>
+
+    <input id="submit_button" type="submit" value="Save">
+</form>
+{% endblock %}
