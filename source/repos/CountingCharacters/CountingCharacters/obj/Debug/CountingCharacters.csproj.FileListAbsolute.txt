@@ -1,0 +1,7 @@
+C:\Users\Wintaye\source\repos\CountingCharacters\CountingCharacters\bin\Debug\CountingCharacters.exe.config
+C:\Users\Wintaye\source\repos\CountingCharacters\CountingCharacters\bin\Debug\CountingCharacters.exe
+C:\Users\Wintaye\source\repos\CountingCharacters\CountingCharacters\bin\Debug\CountingCharacters.pdb
+C:\Users\Wintaye\source\repos\CountingCharacters\CountingCharacters\obj\Debug\CountingCharacters.csprojAssemblyReference.cache
+C:\Users\Wintaye\source\repos\CountingCharacters\CountingCharacters\obj\Debug\CountingCharacters.csproj.CoreCompileInputs.cache
+C:\Users\Wintaye\source\repos\CountingCharacters\CountingCharacters\obj\Debug\CountingCharacters.exe
+C:\Users\Wintaye\source\repos\CountingCharacters\CountingCharacters\obj\Debug\CountingCharacters.pdb

@@ -1,0 +1,7 @@
+C:\Users\Wintaye\source\repos\Perimeter\Perimeter\obj\Debug\Perimeter.csprojAssemblyReference.cache
+C:\Users\Wintaye\source\repos\Perimeter\Perimeter\obj\Debug\Perimeter.csproj.CoreCompileInputs.cache
+C:\Users\Wintaye\source\repos\Perimeter\Perimeter\bin\Debug\Perimeter.exe.config
+C:\Users\Wintaye\source\repos\Perimeter\Perimeter\bin\Debug\Perimeter.exe
+C:\Users\Wintaye\source\repos\Perimeter\Perimeter\bin\Debug\Perimeter.pdb
+C:\Users\Wintaye\source\repos\Perimeter\Perimeter\obj\Debug\Perimeter.exe
+C:\Users\Wintaye\source\repos\Perimeter\Perimeter\obj\Debug\Perimeter.pdb

@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+
+
+}
+
+<h1>My Cheese</h1>
+
+<p>
+    <a asp-controller="Cheese" asp-action="Add">
+        Add Cheese
+    </a>
+</p>
+
+@if (ViewBag.cheeses.Count == 0)
+{
+    <p>No cheeses yet!</p>
+}
+
+<ul>
+    @foreach (KeyValuePair<string, string> item in ViewBag.cheeses)
+    {
+
+        <li>Cheese Name: @item.Key, Cheese Description: @item.Value</li>
+    }
+
+</ul>

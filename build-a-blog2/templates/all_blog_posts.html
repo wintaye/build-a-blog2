@@ -5,11 +5,10 @@
     <ul>
         {% for blog in all_blog_posts %}
             <li>
-                <h2 class="center">
-                   <a href="/blog?id={{ blog.id }}">{{ blog.title }}</a>
-                </h2>
-                <p class="center">{{ blog.body }}</p>
-                <p class="center">{{ blog.created }}</p>
+                <h2><p class="center"><a href="/blog?id={{ blog.id }}">{{ blog.title }}</a></p></h2>
+                <h4><p class="center">{{ blog.body }}</p></h4>
+                <h4><p class="center">{{ blog.created }}</p></h4>
+                <h4><p class="center"><a href="/blog?user={{ blog.owner.username }}">Author: {{blog.owner.username}}</a></p></h4>
             </li>
         {% endfor %}
     </ul>
